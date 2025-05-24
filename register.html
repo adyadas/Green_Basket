@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register - Green Basket</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+</head>
+<body>
+  <section class="register-form-section" style="margin: 5rem auto; max-width: 500px; padding: 2rem; background: #fff; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+    <h2 style="text-align: center; color: green;">Create Your Account</h2>
+    <form action="register.php" method="post" class="register-form" style="display: flex; flex-direction: column; gap: 1rem;">
+      <input type="text" name="name" placeholder="Full Name" required class="box" style="padding: 1rem; border: 1px solid #ccc; border-radius: 5px;" />
+      
+      <input type="email" name="email" placeholder="Email Address" required class="box" style="padding: 1rem; border: 1px solid #ccc; border-radius: 5px;" />
+      
+      <input type="password" name="password" placeholder="Password" required class="box" style="padding: 1rem; border: 1px solid #ccc; border-radius: 5px;" />
+      
+      <input type="submit" value="Register" class="btn" style="padding: 1rem; background: green; color: white; border: none; border-radius: 5px; cursor: pointer;" />
+    </form>
+    <p style="text-align: center; margin-top: 1rem;">
+      Already have an account? <a href="login.html" style="color: green;">Login here</a>
+    </p>
+  </section>
+</body>
+</html>
